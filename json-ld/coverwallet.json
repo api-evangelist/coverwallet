@@ -1,0 +1,58 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "CoverWallet",
+  "description": "CoverWallet, an Aon company, is a digital insurance marketplace providing a REST API for quoting, binding, and managing small business commercial insurance policies across multiple carriers.",
+  "url": "https://www.coverwallet.com/",
+  "sameAs": [
+    "https://www.linkedin.com/company/coverwallet",
+    "https://twitter.com/CoverWallet",
+    "https://github.com/coverwallet"
+  ],
+  "parentOrganization": {
+    "@type": "Organization",
+    "name": "Aon",
+    "url": "https://www.aon.com/"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "CoverWallet Insurance API",
+    "description": "REST API for quoting and binding small business commercial insurance policies across multiple carriers including Liberty Mutual, CNA, Chubb, Travelers, Hiscox, and others.",
+    "url": "https://www.coverwallet.com/api",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "name": "General Liability Insurance",
+        "category": "Commercial Insurance"
+      },
+      {
+        "@type": "Offer",
+        "name": "Business Owners Policy (BOP)",
+        "category": "Commercial Insurance"
+      },
+      {
+        "@type": "Offer",
+        "name": "Professional Liability Insurance",
+        "category": "Commercial Insurance"
+      },
+      {
+        "@type": "Offer",
+        "name": "Workers Compensation Insurance",
+        "category": "Commercial Insurance"
+      },
+      {
+        "@type": "Offer",
+        "name": "Commercial Property Insurance",
+        "category": "Commercial Insurance"
+      }
+    ]
+  },
+  "knowsAbout": [
+    "Insurance",
+    "Small Business Insurance",
+    "Commercial Insurance",
+    "InsurTech",
+    "API Integration",
+    "Digital Insurance Marketplace"
+  ]
+}
