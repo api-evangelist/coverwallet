@@ -1,0 +1,49 @@
+name: CoverWallet API Plans and Pricing
+description: CoverWallet offers its commercial insurance API on a partner and enterprise
+  basis. Access to the API is provided through a direct partnership agreement with
+  CoverWallet (an Aon company). There are no publicly listed self-serve tiers; pricing
+  and access are determined through a custom agreement reflecting the partner's expected
+  volume, insurance lines needed, and integration depth.
+url: https://www.coverwallet.com/api
+created: '2026-06-13'
+modified: '2026-06-13'
+plans:
+  - name: Partner API Access
+    description: Standard API access for qualified partners such as lenders, payroll
+      providers, accounting software vendors, real estate platforms, and agency management
+      systems. Enables quoting, binding, and policy management for small business
+      commercial lines.
+    contact: https://www.coverwallet.com/api
+    features:
+      - Real-time insurance estimates
+      - Multi-carrier quote retrieval
+      - Policy binding and purchase
+      - Certificate of insurance generation
+      - Policy management and servicing
+      - Claims filing support
+    coverages:
+      - General Liability
+      - Business Owners Policy (BOP)
+      - Professional Liability / E&O
+      - Workers Compensation
+      - Commercial Property
+      - Cyber Liability
+      - Commercial Auto
+      - Umbrella
+    carriers:
+      - Liberty Mutual
+      - CNA
+      - Starr
+      - Chubb
+      - Blackboard (AIG)
+      - Guard
+      - Markel
+      - Employers
+      - Travelers
+      - Progressive
+      - Hiscox
+      - Atlas
+    pricing:
+      model: Custom / Commission-based
+      notes: Pricing is negotiated per partnership agreement. Revenue sharing or
+        commission arrangements are typical in embedded insurance API models.

@@ -1,0 +1,70 @@
+aid: coverwallet
+name: CoverWallet
+description: CoverWallet, an Aon company, is a digital insurance marketplace with a
+  REST API for quoting, binding, and managing small business insurance policies across
+  multiple carriers. The platform supports general liability, business owners policy
+  (BOP), professional liability, workers compensation, commercial property, and other
+  commercial lines. Partners can integrate real-time quoting, underwriting, binding,
+  billing, and servicing capabilities directly into their applications.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/coverwallet/refs/heads/main/apis.yml
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+type: Index
+tags:
+  - Insurance
+  - Small Business
+  - Commercial Insurance
+  - General Liability
+  - BOP
+  - Professional Liability
+  - InsurTech
+  - Aon
+apis:
+  - aid: coverwallet:coverwallet-api
+    name: CoverWallet Insurance API
+    description: REST API for quoting and binding small business commercial insurance
+      policies across multiple carriers including Liberty Mutual, CNA, Chubb, Travelers,
+      Hiscox, and others. Supports real-time estimates, policy purchase, and insurance
+      document management including certificates of insurance.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.coverwallet.com/api
+    baseURL: https://api.coverwallet.com/api/v1
+    tags:
+      - Insurance
+      - Commercial Lines
+      - Quoting
+      - Binding
+      - Policy Management
+    properties:
+      - type: Documentation
+        url: https://www.coverwallet.com/api
+      - type: OpenAPI
+        url: https://apidocs.aoncover.biz/swagger/public-api/openapi.json
+common:
+  - type: Website
+    url: https://www.coverwallet.com/
+  - type: Documentation
+    url: https://www.coverwallet.com/api
+  - type: GitHubOrg
+    url: https://github.com/coverwallet
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/coverwallet
+  - type: Blog
+    url: https://www.coverwallet.com/expert-insights
+  - type: Pricing
+    url: https://www.coverwallet.com/api
+  - type: StatusPage
+    url: https://status.coverwallet.com/
+  - type: X
+    url: https://twitter.com/CoverWallet
+  - type: Plans
+    url: plans/coverwallet-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/coverwallet-rate-limits.yml
+  - type: FinOps
+    url: finops/coverwallet-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

@@ -1,0 +1,37 @@
+name: CoverWallet API FinOps
+description: Financial operations considerations for organizations integrating the
+  CoverWallet commercial insurance API. Because CoverWallet operates as an embedded
+  insurance marketplace, cost structures differ from typical SaaS API pricing and
+  are tied to insurance transaction volume and commission arrangements.
+url: https://www.coverwallet.com/api
+created: '2026-06-13'
+modified: '2026-06-13'
+costModel:
+  type: Commission / Revenue Share
+  description: CoverWallet API access is typically structured as a commission or
+    revenue-sharing arrangement rather than a per-call or subscription fee. Partners
+    earn a commission on policies sold through the integration, and CoverWallet retains
+    a share of the premium revenue. There is no publicly listed per-API-call charge.
+  notes: Specific revenue share percentages and minimum volume commitments are negotiated
+    as part of the partnership agreement.
+considerations:
+  - name: Transaction Volume Forecasting
+    description: Because costs and revenues are tied to policy bind volume, accurate
+      forecasting of insurance transactions (quotes submitted, policies bound) is
+      critical for financial planning.
+  - name: Carrier Commission Rates
+    description: Commission rates vary by carrier and insurance line (GL, BOP, E&O,
+      etc.). Integrating partners should understand the commission structure for each
+      coverage type offered through the API.
+  - name: No Direct API Call Fees
+    description: The API does not appear to charge on a per-request basis for quote
+      retrievals or policy lookups. Revenue flows from bound policies.
+  - name: Compliance and Licensing Costs
+    description: Partners must comply with insurance licensing requirements to earn
+      commissions. Unlicensed partners may operate under a referral arrangement with
+      different financial terms.
+  - name: Sandbox vs Production
+    description: Development and testing in a sandbox environment should not incur
+      costs. Production API usage resulting in bound policies will trigger commission
+      accounting.
+contact: https://www.coverwallet.com/api

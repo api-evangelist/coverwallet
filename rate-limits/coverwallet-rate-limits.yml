@@ -1,0 +1,24 @@
+name: CoverWallet API Rate Limits
+description: CoverWallet does not publicly document specific rate limit thresholds
+  for its commercial insurance API. As an enterprise partner API, rate limits and
+  quotas are defined within individual partnership agreements based on expected integration
+  volume and use case. The following represents typical conventions for insurance
+  APIs of this type.
+url: https://www.coverwallet.com/api
+created: '2026-06-13'
+modified: '2026-06-13'
+rateLimits:
+  - name: Standard Partner Limits
+    description: Rate limits are agreed upon during the partner onboarding process
+      and are tailored to the partner's expected transaction volume. Typical insurance
+      quote-and-bind API deployments enforce limits per API key to protect carrier
+      underwriting systems.
+    notes: No publicly documented thresholds. Contact CoverWallet to obtain specific
+      rate limit details for a given partnership tier.
+    contact: https://www.coverwallet.com/api
+  - name: Authentication
+    description: API access is controlled via API key issued during partner onboarding.
+      Keys are scoped to the partner account and must be included with each request.
+    authMethod: API Key
+    notes: OAuth or token-based flows may be available for specific partner integrations.
+      Confirm with CoverWallet during onboarding.
