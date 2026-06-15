@@ -3,5 +3,17 @@
   "url": "https://www.coverwallet.com/expert-insights",
   "retrieved": "2026-06-13",
   "note": "CoverWallet blog (expert-insights) now redirects to Aon Affinity (aonaffinity.com/traffic-director/) following acquisition. No blog posts could be retrieved.",
-  "posts": []
+  "posts": [],
+  "repo": "coverwallet",
+  "feeds": [
+    {
+      "source": "https://www.linkedin.com/company/coverwallet",
+      "feed_url": "https://www.linkedin.com/company/coverwallet",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-06-14T20:42:17Z"
 }
