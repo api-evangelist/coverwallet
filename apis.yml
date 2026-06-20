@@ -6,7 +6,7 @@ description: CoverWallet, an Aon company, is a digital insurance marketplace wit
   (BOP), professional liability, workers compensation, commercial property, and other
   commercial lines. Partners can integrate real-time quoting, underwriting, binding,
   billing, and servicing capabilities directly into their applications.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/coverwallet/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
@@ -28,7 +28,7 @@ apis:
       policies across multiple carriers including Liberty Mutual, CNA, Chubb, Travelers,
       Hiscox, and others. Supports real-time estimates, policy purchase, and insurance
       document management including certificates of insurance.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.coverwallet.com/api
     baseURL: https://api.coverwallet.com/api/v1
     tags:
