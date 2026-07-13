@@ -5,12 +5,14 @@
   "note": "CoverWallet blog (expert-insights) 301-redirects to Aon Affinity (aonaffinity.com/traffic-director/) following the Aon acquisition. No RSS/Atom feed resolves and the HTML page redirects off-host, so no posts can be retrieved.",
   "feeds": [
     {
-      "source": "https://www.coverwallet.com/expert-insights",
+      "source": "https://www.linkedin.com/company/coverwallet",
+      "feed_url": "https://www.linkedin.com/company/coverwallet",
+      "title": "",
       "saved": 0,
-      "error": "301 off-host redirect to aonaffinity.com/traffic-director/"
+      "method": "none"
     }
   ],
-  "fetched": "2026-06-27T12:34:29Z",
+  "fetched": "2026-07-11T11:50:51Z",
   "post_count": 0,
   "agent_pulled": "2026-06-27"
 }
