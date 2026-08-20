@@ -31,6 +31,15 @@ tags:
   - General Liability
   - BOP
   - Professional Liability
+  - Insurtech
+  - Aon
+tags_raw:
+  - Insurance
+  - Small Business
+  - Commercial Insurance
+  - General Liability
+  - BOP
+  - Professional Liability
   - InsurTech
   - Aon
 apis:
@@ -44,6 +53,12 @@ apis:
     humanURL: https://www.coverwallet.com/api
     baseURL: https://api.coverwallet.com/api/v1
     tags:
+      - Insurance
+      - Commercial Lines
+      - Quoting
+      - Bindings
+      - Policy Management
+    tags_raw:
       - Insurance
       - Commercial Lines
       - Quoting
