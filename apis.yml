@@ -6,6 +6,17 @@ description: CoverWallet, an Aon company, is a digital insurance marketplace wit
   (BOP), professional liability, workers compensation, commercial property, and other
   commercial lines. Partners can integrate real-time quoting, underwriting, binding,
   billing, and servicing capabilities directly into their applications.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
