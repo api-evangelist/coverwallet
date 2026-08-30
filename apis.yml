@@ -42,7 +42,7 @@ tags:
   - General Liability
   - BOP
   - Professional Liability
-  - Insurtech
+  - InsurTech
   - Aon
 tags_raw:
   - Insurance
@@ -67,7 +67,7 @@ apis:
       - Insurance
       - Commercial Lines
       - Quoting
-      - Bindings
+      - Binding
       - Policy Management
     tags_raw:
       - Insurance
